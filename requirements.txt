@@ -8,6 +8,10 @@ aiosignal==1.4.0
     # via aiohttp
 attrs==25.3.0
     # via aiohttp
+certifi==2025.8.3
+    # via requests
+charset-normalizer==3.4.3
+    # via requests
 discord-py==2.6.3
     # via bot-pocket-pace (pyproject.toml)
 frozenlist==1.7.0
@@ -15,7 +19,9 @@ frozenlist==1.7.0
     #   aiohttp
     #   aiosignal
 idna==3.10
-    # via yarl
+    # via
+    #   requests
+    #   yarl
 multidict==6.6.4
     # via
     #   aiohttp
@@ -26,7 +32,11 @@ propcache==0.3.2
     #   yarl
 python-dotenv==1.1.1
     # via bot-pocket-pace (pyproject.toml)
+requests==2.32.5
+    # via bot-pocket-pace (pyproject.toml)
 typing-extensions==4.15.0
     # via aiosignal
+urllib3==2.5.0
+    # via requests
 yarl==1.20.1
     # via aiohttp
